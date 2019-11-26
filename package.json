@@ -1,11 +1,14 @@
 {
   "name": "@docimax/errorpage",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.10",
+  "description": "docimax error page plugin",
+  "author": "bei <liub@docimax.com.cn>",
+  "main": "lib/derp.umd.min.js",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "b": "vue-cli-service build --target lib --name derp --dest lib src/errorpage/index.js",
+    "p": "npm publish --access public"
   },
   "dependencies": {
     "core-js": "^3.3.2",
