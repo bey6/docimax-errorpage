@@ -1,7 +1,7 @@
 import pkg from "../../package.json";
 export default function({ msg, curl, origin, env, aurl, clientid }) {
   // eslint-disable-next-line no-console
-  console.log(`@docimax/ui version: ${pkg.version}`);
+  console.log(`@docimax/errorpage version: ${pkg.version}`);
 
   let template = `
     <h3>太糟糕了!</h3>

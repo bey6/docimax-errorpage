@@ -1,6 +1,6 @@
 {
   "name": "@docimax/errorpage",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "docimax error page plugin",
   "author": "bei <liub@docimax.com.cn>",
   "main": "lib/derp.umd.min.js",
